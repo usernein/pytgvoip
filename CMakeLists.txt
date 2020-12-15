@@ -30,7 +30,7 @@ if(APPLE)
     set(OPENSSL_ROOT_DIR /usr/local/opt/openssl/)
 endif()
 add_definitions(
-        -DTGVOIP_LOG_VERBOSITY=X
+        -DTGVOIP_LOG_VERBOSITY=0
         -DTGVOIP_USE_CALLBACK_AUDIO_IO
         -DWITHOUT_ALSA
         -DWITHOUT_PULSE
